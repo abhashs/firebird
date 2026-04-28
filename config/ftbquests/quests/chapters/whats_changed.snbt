@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "whats_changed"
+	group: "463BB5E5281C179E"
+	id: "0203B1BB43AA9812"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "24704CA8ED7FA30D"
+			tasks: [{
+				id: "4D575176A7D35B0E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "03678CDF690FC78D"
+			tasks: [{
+				id: "67AFCAC0E6D7A69F"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "aether:golden_oak_sapling"
+			}
+			id: "36BA2EC7B6150AB7"
+			tasks: [{
+				id: "6896D10810B528EC"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "createreautomated:iron_node"
+			}
+			id: "02C8D9CEDBCDF75C"
+			tasks: [{
+				id: "1E9D6B1E3706B1C2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

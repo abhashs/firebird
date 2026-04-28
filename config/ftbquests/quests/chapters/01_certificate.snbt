@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01_certificate"
+	group: "3C2B20899292FB72"
+	id: "0000000000000003"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000000020"
+			rewards: [{
+				count: 8
+				id: "0000000000002001"
+				item: {
+					count: 1
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "0000000000001001"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000020"]
+			id: "0000000000000021"
+			rewards: [{
+				count: 8
+				id: "0000000000002002"
+				item: {
+					count: 1
+					id: "create:shaft"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "0000000000001002"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000021"]
+			id: "0000000000000022"
+			rewards: [{
+				count: 32
+				id: "0000000000002003"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "0000000000001003"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000022"]
+			id: "0000000000000023"
+			rewards: [{
+				count: 32
+				id: "0000000000002004"
+				item: {
+					count: 1
+					id: "create:crushed_raw_iron"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "0000000000001004"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000023"]
+			id: "0000000000000024"
+			rewards: [{
+				count: 64
+				id: "0000000000002005"
+				item: {
+					count: 1
+					id: "minecraft:sand"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "0000000000001005"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000024"]
+			id: "0000000000000025"
+			rewards: [
+				{
+					count: 32
+					id: "0000000000002006"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0000000000002007"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0000000000001006"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "0000000000001007"
+					item: { count: 1, id: "create:copper_sheet" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "0000000000001008"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000025"]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "0000000000000026"
+			shape: "diamond"
+			tasks: [{
+				id: "3E42D1579EAB0503"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000000026"]
+			id: "0000000000000027"
+			repeat_cooldown: 10
+			rewards: [
+				{
+					count: 4
+					id: "0000000000002008"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0000000000002009"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2FE724F83FEB3E0A"
+				item: { count: 1, id: "firebird:certificate_of_minimal_competence" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+}

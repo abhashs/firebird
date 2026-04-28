@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04_grand_commission"
+	group: "3C2B20899292FB72"
+	id: "0000000000000006"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "0000000000000050"
+			shape: "pentagon"
+			tasks: [{
+				id: "0F28D1D5F55DD743"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000000027"
+				"0000000000000036"
+				"0000000000000044"
+				"0000000000000050"
+			]
+			id: "0000000000000051"
+			rewards: [{
+				id: "0000000000002024"
+				item: {
+					count: 1
+					id: "firebird:masters_insignia"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					id: "0000000000001030"
+					item: { count: 1, id: "firebird:certificate_of_minimal_competence" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0000000000001031"
+					item: { count: 1, id: "firebird:notice_of_nontrivial_achievement" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0000000000001032"
+					item: { count: 1, id: "firebird:writ_of_industrial_ascendancy" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "trickster:tome_of_tomfoolery"
+			}
+			id: "0000000000000052"
+			rewards: [{
+				count: 16
+				id: "0000000000002025"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000000001033"
+					item: { count: 1, id: "trickster:tome_of_tomfoolery" }
+					type: "item"
+				}
+				{
+					id: "39B57846ADFA32BD"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
+		}
+	]
+}

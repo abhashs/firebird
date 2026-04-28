@@ -1,0 +1,85 @@
+{
+  "bookmarks": {},
+  "opened_books": {
+    "b4920fc6-5247-4b87-b6d8-682a72591e88": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "efb5943c-cd92-47c6-88ba-7b2a48ef425f": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "345169a5-5eba-4240-bd72-a06c5bcb15bf": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "23fd330e-0f56-4eaa-904e-5a3349698854": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "475dd0df-aa36-499f-a661-25de84094c38": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "52023878-d242-43ed-87e6-c7e88941d43c": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "d6a87a55-a29d-496f-a56a-ffd7b7e773f2": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "b552ffe3-a502-470d-a076-0798742307d3": [
+      "trickster:tome_of_tomfoolery"
+    ],
+    "7587353e-27ae-4db7-aa3a-840964ed4901": [
+      "trickster:tome_of_tomfoolery"
+    ]
+  },
+  "viewed_entries": {
+    "b4920fc6-5247-4b87-b6d8-682a72591e88": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:concepts/multi_tick",
+        "trickster:intro",
+        "trickster:concepts/fragment_decay"
+      ]
+    },
+    "efb5943c-cd92-47c6-88ba-7b2a48ef425f": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:constants",
+        "trickster:editing",
+        "trickster:intro",
+        "trickster:tricks/basic"
+      ]
+    },
+    "345169a5-5eba-4240-bd72-a06c5bcb15bf": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:intro"
+      ]
+    },
+    "23fd330e-0f56-4eaa-904e-5a3349698854": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:intro"
+      ]
+    },
+    "475dd0df-aa36-499f-a661-25de84094c38": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:intro"
+      ]
+    },
+    "52023878-d242-43ed-87e6-c7e88941d43c": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:intro"
+      ]
+    },
+    "d6a87a55-a29d-496f-a56a-ffd7b7e773f2": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:intro"
+      ]
+    },
+    "b552ffe3-a502-470d-a076-0798742307d3": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:intro"
+      ]
+    },
+    "7587353e-27ae-4db7-aa3a-840964ed4901": {
+      "trickster:tome_of_tomfoolery": [
+        "trickster:concepts/multi_tick",
+        "trickster:intro"
+      ]
+    }
+  }
+}

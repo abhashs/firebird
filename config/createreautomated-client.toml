@@ -1,0 +1,6 @@
+#.
+#Whether to display debug information when an Ore Node is right-clicked.
+debugOreNode = false
+#.
+#Whether to display debug information when looking at an extractor with the Engineer's Goggles equipped.
+debugExtractor = false

@@ -1,0 +1,19 @@
+{
+	"dotEmphasis": false,
+	"dotEmphasisColor": "#FF7F3366",
+	"subcircleDividerPinColor": "#337F7FFF",
+	"topHatInterceptScrolling": false,
+	"invertTopHatScrolling": false,
+	"allowScrollInSpellScreen": true,
+	"keyZoomSpeed": 1.0,
+	"revealToHotbar": false,
+	"maxExecutionsPerSpellPerTick": 64,
+	"maxBlockBreakingHardness": 55.5,
+	"whorlRechargeRate": 0.5,
+	"whorlMaxMana": 512.0,
+	"manaTransferEfficiency": 100.0,
+	"dragDrawing": false,
+	"barsHorizontal": false,
+	"disableOffhandScrollOpening": false,
+	"adjacentPixelCollisionOffset": 0.25
+}

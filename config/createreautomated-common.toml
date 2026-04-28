@@ -1,0 +1,3 @@
+#.
+#Whether Create Re-Automated should generate nodes in the world.
+worldGen = true

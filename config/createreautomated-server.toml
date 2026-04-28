@@ -1,0 +1,25 @@
+#.
+#[in Stress Units]
+#How much stress impact does the extractor generate. Note that this cost is doubled for every speed increase it receives.
+# Default: 64.0
+# Range: 0.0 ~ 3.4028234663852886E38
+extractorImpact = 64.0
+
+#.
+#Configure each node extraction limit.
+[nodeValues]
+
+	#.
+	#Configure how many times each node can be extracted before turning into its base rock
+	[nodeValues.extraction]
+		diamond_node = 108
+		deepslate_copper_node = 300
+		gold_node = 180
+		iron_node = 240
+		deepslate_diamond_node = 135
+		deepslate_iron_node = 300
+		zinc_node = 200
+		copper_node = 240
+		nether_gold_node = 180
+		deepslate_gold_node = 225
+		deepslate_zinc_node = 250

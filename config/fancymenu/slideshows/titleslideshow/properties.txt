@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = titleslideshow
+   width = 3440
+   height = 1440
+   x = 0
+   y = 0
+   duration = 15
+   fadespeed = 6.0
+   randomize = true
+}
