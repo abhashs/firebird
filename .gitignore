@@ -1,0 +1,51 @@
+# Mods (redistribute via manifest)
+mods/
+
+# World data
+saves/
+Distant_Horizons_server_data/
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+local/
+data/
+
+# User-specific
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+command_history.txt
+ponders_watched.json
+supportercache.json
+cosmetics/
+screenshots/
+
+# Logs and crashes
+logs/
+crash-reports/
+fabricloader.log
+
+# Runtime/cache
+coremods/
+moddata/
+imgui.ini
+emi.json
+kubejs/.cache/
+kubejs/exported/
+fancymenu_data/
+
+# Downloads and temp
+downloads/
+server-resource-packs/
+texturepacks/
+
+# Schematics and blueprints (optional - include if you want to share these)
+schematics/
+blueprints/
+
+# Shaderpacks (too large, distribute separately)
+shaderpacks/
+
+# Midi
+midi_files/

@@ -6672,6 +6672,11 @@ file = "mods/c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar"
 hash = "107ec5b3cca05a038ee21aa35e5c68880297c370e4a47d14998ecfa7270af369"
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked-1.21.1-forge-1.117.1.jar"
 hash = "828d37b1fd2360db026c0cc1053373ada02d1aadd6e3ec3b787c8bfd718615ca"
 
