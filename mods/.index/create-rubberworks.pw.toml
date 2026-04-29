@@ -1,0 +1,21 @@
+filename = 'rubberworks-neoforge-1.21.1-1.1.1.jar'
+name = 'Create: Rubberworks'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rubberworks-neoforge-1.21.1-1.1.1'
+
+[download]
+hash = '891d8a0d466552dad08e03013bd2a1bdf36632f4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7906535
+project-id = 1425758
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

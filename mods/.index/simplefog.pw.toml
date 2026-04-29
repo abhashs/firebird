@@ -1,0 +1,16 @@
+filename = 'simplefog-neoforge-1.21.1-2.0.5.jar'
+name = 'Simple Fog Control'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b7dc69f639ab4b0196de03fcd8015f564ac526dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6353377
+project-id = 622640

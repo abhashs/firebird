@@ -1,0 +1,16 @@
+filename = 'cc_sable-neoforge-1.0.1.jar'
+name = 'CC: Sable'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bfa192d82b6610d59418cf7f2e76ece62c24fdd18dc8f36573988691d16ac435055996b75875c5ca9d01b5870d56edd567cc7643584c4852bf045646029e3867'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OPNBxiZD/versions/WtG0fjPU/cc_sable-neoforge-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'OPNBxiZD'
+version = 'WtG0fjPU'

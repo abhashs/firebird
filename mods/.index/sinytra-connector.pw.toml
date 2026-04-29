@@ -1,0 +1,16 @@
+filename = 'connector-2.0.0-beta.10+1.21.1-full.jar'
+name = 'Sinytra Connector'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '916e8f7408e06c08a47366e5cb71f85670869ff4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7046486
+project-id = 890127
