@@ -1,0 +1,13 @@
+name = "firebird"
+author = "sonosive"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c118480d191607543d2b09c65c882afbf3c44622e95008d0661b4914d6a9f57b"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.227"
